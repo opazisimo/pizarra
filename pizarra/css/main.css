@@ -1,0 +1,92 @@
+body {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+	width: 600px;
+}
+.up {
+	width: 100%;
+	height: 250px;
+	padding:20px;
+}
+
+.fotosup {
+	margin:10px;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	float:left;
+}
+
+.fotosarriba {
+	width: 360px;
+	height: 240px;
+	display: inline-block;
+	position: static;
+	margin-top:40px;
+	margin-left: 150px;
+	margin-right:50px; 
+
+
+}
+
+.fotoright {
+	position: relative;
+	top:-235px;
+	left: 650px;
+
+}
+
+/* parte de abajo*/
+.down {
+	width: 100%;
+	height: 250px;
+	float:left;
+	padding: 20px;
+}
+
+.text {
+	color:gray;
+	font-family: 'Helvetica Neue';
+	text-align: justify;
+	width: 340px;
+	font-size: 8pt; 
+	margin-bottom:40px;
+	margin-left: 160px;
+	margin-top: 50px;
+}
+
+.fotosabajo {
+	width: 360px;
+	height: 240px;
+	display: inline-block;
+	position: relative;
+	float: left;
+	bottom: 250px;
+	left: 650px;
+}
+
+.downrighttop {
+	width: 360px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.ultimas {
+	position: relative;
+	width: 150px;
+	height: 100px;
+	margin:10px;
+	position: relative;
+	float:left;
+
+}
+
+
+img {
+-webkit-filter:brightness(60%)
+}
+
+img:hover {
+-webkit-filter:brightness(99%)
+}
